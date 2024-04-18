@@ -1,0 +1,80 @@
+/* styles.css */
+/* Add some padding and center the content */
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+    background-color: #f2f2f2;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+}
+
+/* Add some styles to headings */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Add some styles to paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Add some styles to links */
+a {
+    color: #007bff;
+    padding: 10px;
+    text-decoration: none;
+    border: dashed 1px #007bff;
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: azure;
+    padding: 5px;
+    border-radius: 10px;
+    border: dashed 1px #007bff;
+}
+
+button:hover {
+    background-color: #007bffa5;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
